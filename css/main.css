@@ -1,13 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Main.css</title>
+  <head>
+    <title>Main.css</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://hollanddurrant.github.io/index.html">
-<link rel="stylesheet" href="https://hollanddurrant.github.io/inspire.html">
-<link rel="stylesheet" href="https://hollanddurrant.github.io/profile.html">
-<link rel="stylesheet" href="https://hollanddurrant.github.io/amuse.html">
-<link rel="stylesheet" href="https://hollanddurrant.github.io/template.html">
-<link rel="stylesheet" href="https://hollanddurrant.github.io/superhero.html">
+      <link rel="stylesheet" href="https://hollanddurrant.github.io/index.html">
+      <link rel="stylesheet" href="https://hollanddurrant.github.io/inspire.html">
+      <link rel="stylesheet" href="https://hollanddurrant.github.io/profile.html">
+      <link rel="stylesheet" href="https://hollanddurrant.github.io/amuse.html">
+      <link rel="stylesheet" href="https://hollanddurrant.github.io/template.html">
+      <link rel="stylesheet" href="https://hollanddurrant.github.io/superhero.html">
 <style>
+  td
+      {
+        border: 1px solid black;
+      }
+      th, table
+      {
+        border: 3px solid black;
+      }
+      table
+      {
+        border-collapse:collapse;
+      }
+      td,th
+      {
+        padding-left: 10px:
+        padding-right: 10px:
+      }
+        body {
+        background-color: lightblue;
+    }
+        h1 {
+        color: white;
+        text-align: left;
+    }
+  </style>
+  </head>
+  <body>
+    <h1>Test results</h1>
+  <table>
+    <tr>
+      <th>Page Name</th>
+      <th>URL</th>
+    </tr>
+       <tr>
+        <th>Homepage</th>
+        <td><a href="https://hollanddurrant.github.io/index.html">"https://hollanddurrant.github.io/index.html"</a></td>
+      </tr>
+     <tr>
+       <th>Inspire</th>
+       <td><a href="https://hollanddurrant.github.io/inspire.html">https://hollanddurrant.github.io/inspire.html</a></td>
+    </tr> 
+       <tr>
+        <th>Profile</th>
+        <td><a href="https://hollanddurrant.github.io/profile.html">"https://hollanddurrant.github.io/profile.html"</a></td>
+      </tr>
+      <tr>
+        <th>Amuse</th>
+        <td><a href="https://hollanddurrant.github.io/amuse.html">"https://hollanddurrant.github.io/amuse.html"</a></td>
+      </tr>
+       <tr>
+        <th>Template</th>
+        <td><a href="https://hollanddurrant.github.io/test.html">"https://hollanddurrant.github.io/test.html"</a></td>
+      </tr>
+       <tr>
+        <th>Superhero</th>
+        <td><a href="https://hollanddurrant.github.io/superhero.html">"https://hollanddurrant.github.io/superhero.html"</a></td>
+      </tr>
+  </table>
+</body>
+</html>
